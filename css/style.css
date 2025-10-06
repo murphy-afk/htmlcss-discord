@@ -18,7 +18,10 @@ ul {
             SPECIFICS
 ***********************************/
 
-
+.header-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 /**********************************
             UTILITIES 
@@ -122,6 +125,8 @@ body {
   text-decoration: none;
   color: black;
 }
+
+
 
 
 
@@ -265,6 +270,9 @@ body {
 .padding-5 {
   padding: 5px;
 }
+
+
+
 
 
 /* TODO: make a class .container to group some properties */
