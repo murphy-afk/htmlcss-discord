@@ -67,6 +67,29 @@ ul {
   padding-bottom: 100px;
 }
 
+/* bottom section */
+
+.bottom-section-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.bottom-text {
+    font-size: 1.5rem;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 40px
+}
+
 /**********************************
             UTILITIES 
 ***********************************/
@@ -102,6 +125,10 @@ body {
 
 .t-white {
   color: white;
+}
+
+.text-center {
+  text-align: center;
 }
 
 /* background colors */
@@ -167,7 +194,7 @@ body {
 
 /* anchor tag button style  */
 .a-button {
-  padding: 10px;
+  padding: 12px;
   border: none;
   border-radius: 20px;
   text-decoration: none;
@@ -183,6 +210,10 @@ body {
   color: white;
 }
 
+.button-blue {
+  background-color: rgb(114, 137, 218);
+  color: white;
+}
 
 /* border */
 
