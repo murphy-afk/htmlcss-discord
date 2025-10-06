@@ -13,6 +13,11 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 
 /**********************************
             SPECIFICS
@@ -88,6 +93,70 @@ ul {
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: 40px
+}
+
+/* footer  */
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-title {
+  font-size: 1.5rem;
+  color: rgb(114, 137, 218);
+}
+
+.language-socials-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.footer-top-container {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgb(114, 137, 218);
+}
+
+.flag-image {
+  max-width: 20px;
+}
+
+.language {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.social-list {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  gap: 5px;
+}
+
+
+.footer-heading {
+  font-size: 0.8rem;
+  color: rgb(114, 137, 218);
+  padding-bottom: 10px;
+}
+
+.footer-link-list {
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-bottom-container {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
 /**********************************
@@ -187,7 +256,7 @@ body {
 }
 
 .bg-darkgray {
-  background-color: darkslategray;
+  background-color: rgb(35, 39, 42);
 }
 
 /* button styles  */
@@ -197,7 +266,6 @@ body {
   padding: 12px;
   border: none;
   border-radius: 20px;
-  text-decoration: none;
 }
 
 .button-white {
