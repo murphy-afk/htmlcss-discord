@@ -164,6 +164,23 @@ a {
             UTILITIES 
 ***********************************/
 
+.wave {
+  background-image: url(../img/wave.svg);
+  width: 100%;
+  min-height: 50px;
+  opacity: 0.1;
+  margin: 0;
+}
+
+.white-wave {
+  background-image: url(../img/wave.svg);
+  width: 100%;
+  min-height: 50px;
+  margin: 0;
+  transform: rotate(180deg);
+  opacity: 0.1;
+}
+
 body {
   font-family: sans-serif;
 }
@@ -209,7 +226,7 @@ body {
 }
 
 .bg-lightgray {
-  background-color: lightgray;
+  background-color: rgb(228, 228, 228);
 }
 
 .bg-darkgray {
