@@ -9,19 +9,55 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style: none;
+}
+
+
+/**********************************
+            SPECIFICS
+***********************************/
+
+
+
 /**********************************
             UTILITIES 
 ***********************************/
 
+body {
+  font-family: sans-serif;
+}
+
+
 .flex {
   display: flex;
+  flex-direction: row;
 }
 
 .margin-auto {
   margin: 0 auto;
 }
 
+.gap {
+  gap: 10px;
+}
+
+/* font styles  */
+
+.small-text {
+  font-size: 0.8rem;
+}
+
+.t-white {
+  color: white;
+}
+
 /* background colors */
+
+/* HEADER COLOR */
+.bg-skyblue {
+  background-color: rgb(37, 94, 233);
+}
 
 .bg-white {
   background-color: white;
@@ -75,6 +111,20 @@
   background-color: darkslategray;
 }
 
+/* button styles  */
+
+/* anchor tag button style  */
+.a-button {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+
+
 /* border */
 
 .border {
@@ -115,13 +165,15 @@
 .w-60 {
   width: 60%;
 }
-/* TODO: add max width inside w-70 and w-80  */
+
 .w-70 {
   width: 70%;
+  max-width: 1000px;
 }
 
 .w-80 {
   width: 80%;
+  max-width: 1000px;
 }
 
 /* TODO: change to min-height  */
