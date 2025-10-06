@@ -23,6 +23,27 @@ ul {
   padding-bottom: 20px;
 }
 
+.hero-container {
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 50px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-button-section {
+  display: flex;
+  gap: 20px;
+}
+
 /**********************************
             UTILITIES 
 ***********************************/
@@ -36,6 +57,8 @@ body {
   display: flex;
   flex-direction: row;
 }
+
+
 
 .margin-auto {
   margin: 0 auto;
@@ -119,15 +142,20 @@ body {
 /* anchor tag button style  */
 .a-button {
   padding: 10px;
-  background-color: white;
   border: none;
   border-radius: 20px;
   text-decoration: none;
+}
+
+.button-white {
+  background-color: white;
   color: black;
 }
 
-
-
+.button-black {
+  background-color: black;
+  color: white;
+}
 
 
 /* border */
@@ -271,7 +299,9 @@ body {
   padding: 5px;
 }
 
-
+.padding-20 {
+  padding: 20px;
+}
 
 
 
