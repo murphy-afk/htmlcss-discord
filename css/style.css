@@ -18,11 +18,13 @@ ul {
             SPECIFICS
 ***********************************/
 
+/* header */
 .header-container {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
+/* hero section */
 .hero-container {
   background-image: url(../img/jumbo.png);
   background-size: cover;
@@ -44,6 +46,27 @@ ul {
   gap: 20px;
 }
 
+
+/* main content */
+.section-image {
+  width: 95%;
+  max-width: 1000px;
+}
+
+.section-title {
+  font-size: 2rem;
+}
+
+.section-text {
+  padding-top: 20px;
+  word-spacing: 5px;
+}
+
+.main-content-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 /**********************************
             UTILITIES 
 ***********************************/
@@ -58,6 +81,9 @@ body {
   flex-direction: row;
 }
 
+.order-1 {
+  order: 1;
+}
 
 
 .margin-auto {

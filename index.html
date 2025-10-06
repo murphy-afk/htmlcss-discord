@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Discord</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <!-- TODO: add container to body and put width 70% there -->
@@ -18,6 +21,7 @@
       </div>
       <div class="links w-60 content-center flex">
         <ul class="link-list small-text gap t-white flex">
+          <!-- TODO: make list items links -->
           <li class="link-list-item">Scarica</li>
           <li class="link-list-item">Perchè Discord</li>
           <li class="link-list-item">Nitro</li>
@@ -33,7 +37,7 @@
   <main class="main">
     <!-- fixme: find more appropriate names for the containers/sections -->
     <!-- hero section -->
-    <div class="hero-container content-center bg-blue">
+    <div class="hero-container content-center">
       <div class="hero-content w-60">
         <h1 class="hero-title padding-20">Il tuo posto per parlare</h1>
         <p class="hero-content">Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica
@@ -47,24 +51,49 @@
     </div>
     <!-- main content boxes section -->
     <!-- first block section-->
-    <div class="section-container bg-white height-500 content-center">
-      <div class="two-box-container height-proportion-80 w-70 content-center">
-        <div class="box-content-60 w-60 height-proportion-100 bg-royalblue border"></div>
-        <div class="box-content-40 w-40 height-proportion-100 bg-pink border"></div>
+    <div class="section-container bg-white content-center">
+      <div class="main-content-container w-80 flex">
+        <div class="box-content-image w-60">
+          <img src="./img/item1.svg" alt="studygroup chat image example" class="section-image">
+        </div>
+        <div class="box-content-text w-40">
+          <h2 class="section-title">
+            Un luogo a invito con lo spazio necessario per parlare
+          </h2>
+          <p class="section-text">I server Discord sono organizzati in canali tematici in cui puoi collaborare,
+            condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo.</p>
+        </div>
       </div>
     </div>
     <!-- second block -->
-    <div class="section-container bg-lightgray content-center height-500">
-      <div class="two-box-container height-proportion-80 w-70 content-center">
-        <div class="box-content-40 w-40 height-proportion-100 bg-pink border"></div>
-        <div class="box-content-60 w-60 height-proportion-100 bg-royalblue border"></div>
+    <div class="section-container bg-lightgray content-center">
+      <div class="main-content-container w-80 flex">
+        <div class="box-content-image w-60 order-1">
+          <img src="./img/item2.svg" alt="just-chillin chat image example" class="section-image">
+        </div>
+        <div class="box-content-text w-40">
+          <h2 class="section-title">
+            Dove trovarsi è facile
+          </h2>
+          <p class="section-text">Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono
+            vedere che sei lì e unirsi istantaneamente senza dover chiamare.</p>
+        </div>
       </div>
     </div>
     <!-- third block -->
-    <div class="section-container bg-white height-500 content-center">
-      <div class="two-box-container height-proportion-80 w-70 content-center">
-        <div class="box-content-60 w-60 height-proportion-100 bg-royalblue border"></div>
-        <div class="box-content-40 w-40 height-proportion-100 bg-pink border"></div>
+    <div class="section-container bg-white content-center">
+      <div class="main-content-container w-80 flex">
+        <div class="box-content-image w-60">
+          <img src="./img/item3.svg" alt="discord profile card image example" class="section-image">
+        </div>
+        <div class="box-content-text w-40">
+          <h2 class="section-title">
+            Da pochi a un fandom
+          </h2>
+          <p class="section-text">Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e
+            accesso ai membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati, e molto altro.
+          </p>
+        </div>
       </div>
     </div>
     <!-- main content boxes section END -->
